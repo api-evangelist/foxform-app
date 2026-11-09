@@ -1,4 +1,4 @@
-# foxform-app
+# FoxForm
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,126 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-foxform-app is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://foxform.app/
+FoxForm is a form, quiz and survey builder platform that enables users to create interactive forms with AI‑driven scoring and branching. It offers a visual builder, customizable templates, real‑time analytics, and integration options for embedding forms on websites or sharing via links. The service targets businesses and developers looking to collect structured data, qualify leads, or deliver personalized experiences through dynamic questionnaires.
+
+**Areas:** Company · Form Builder · Survey · Quiz · AI
+
+## FoxForm on APIs.io
+
+Everything profiled for FoxForm is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/foxform-app/](https://apis.io/providers/foxform-app/)** — or go straight to one of the APIs or properties below.
+
+### APIs (5)
+
+- [FoxForm Analytics API](https://apis.io/apis/foxform-app/foxform-app-analytics-api/) — Aggregated per-question statistics and CSV export.
+- [FoxForm Forms API](https://apis.io/apis/foxform-app/foxform-app-forms-api/) — Create, read, update, delete, clone, publish and AI-generate forms/funnels.
+- [FoxForm Integrations API](https://apis.io/apis/foxform-app/foxform-app-integrations-api/) — Manage account-level Connect destinations (tracking pixels, webhooks, Zapier/Make, Slack, Google Sheets) and link them to forms.
+- [FoxForm Responses API](https://apis.io/apis/foxform-app/foxform-app-responses-api/) — Read form responses and aggregated analytics. Collection is beacon-driven.
+- [FoxForm Users API](https://apis.io/apis/foxform-app/foxform-app-users-api/) — Authenticated user profile and asset uploads.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [FoxForm Agentic Access](https://apis.io/agentic-access/foxform-app/foxform-app-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [CreateIntegrationRequest](https://apis.io/schemas/foxform-app/foxform-app-create-integration-request/)
+- [FormInput](https://apis.io/schemas/foxform-app/foxform-app-form-input/)
+- [IntegrationUsageResponse](https://apis.io/schemas/foxform-app/foxform-app-integration-usage-response/)
+- [ListFormsResponse](https://apis.io/schemas/foxform-app/foxform-app-list-forms-response/)
+- [ListResponsesResponse](https://apis.io/schemas/foxform-app/foxform-app-list-responses-response/)
+- [PublishFormResponse](https://apis.io/schemas/foxform-app/foxform-app-publish-form-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Foxform App Context](https://apis.io/jsonld/foxform-app/foxform-app-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [FoxForm API Rules](https://apis.io/rules/foxform-app/foxform-app-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [FoxForm Authentication](https://apis.io/security/foxform-app/foxform-app-authentication/)
+- [FoxForm Domain Security](https://apis.io/security/foxform-app/foxform-app-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://foxform.app/)
+- [Documentation](https://foxform.app/docs)
+- [API reference](https://foxform.app/docs.html)
+- [Support](https://foxform.app/support)
+- [Blog](https://foxform.app/blog)
+- [Terms of service](https://foxform.app/terms)
+- [Privacy policy](https://foxform.app/privacy)
+
+## API Evangelist rating
+
+**Kin Score 45.3** — developing · rubric 0.27.0 · scored 2026-11-09
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 56.2 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 35.7 |
+| Access clarity | 34.2 |
+
+**Agent readiness 46.1** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | partial |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 22.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/foxform-app/](https://apis.io/providers/foxform-app/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for FoxForm: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/foxform-app/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
